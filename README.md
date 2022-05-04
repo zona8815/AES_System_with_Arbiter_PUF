@@ -5,7 +5,10 @@ This is the graduated project for our department.
 This project is the extension of the Arbiter PUF, using Verilog to simulate and implement on FPGA board. 
 We take the advantages of PUF for its physical feature with AES to create the unique Key, which enhanced the security and broaden the application of PUF. 
 
-## DEMO Video
+### Implementation
+Xilinx ZC-702
+
+### DEMO Video
 * AES System implementation <br>
 https://youtu.be/OkCJ7bmQvAY
 * AES System's key go through Arbiter PUF first, then regards the output from PUF as the key for AES System <br>
@@ -13,7 +16,7 @@ https://youtu.be/KdBpwB4q1zk
 * Same with the above, but changes the data which is needed to be encrypted <br>
 https://youtu.be/oGrUIWSobdk
 
-## Reference
+### Reference
 1. G. E. Suh and S. Devadas, "Physical Unclonable Functions for Device Authentication and Secret Key Generation," 2007 44th ACM/IEEE Design Automation Conference, 2007, pp. 9-14.
 2. C. Herder, M. Yu, F. Koushanfar and S. Devadas, "Physical Unclonable Functions and Applications: A Tutorial," in Proceedings of the IEEE, vol. 102, no. 8, pp. 1126-1141, Aug. 2014, doi: 10.1109/JPROC.2014.2320516.
 3. Maiti, A., Schaumont, P., "Improved Ring Oscillator PUF: An FPGA-friendly Secure Primitive", J Cryptol 24, 375–397, 2011, doi: 10.1007/s00145-010-9088-4
@@ -22,4 +25,5 @@ https://youtu.be/oGrUIWSobdk
 6. National Institute of Standards and Technology, " Announcing the ADVANCED ENCRYPTION STANDARD (AES)," Federal Information Processing Standards Publication 197, Nov 2001, doi: 10.6028/NIST.FIPS.197
 7. 戴宏運。「8位元進階加密器FPGA設計」。碩士論文，國立臺灣師範大學工業教育學系，2007。https://hdl.handle.net/11296/368684。
 
-
+## Keywords
+Physical Unclonable Function, Arbiter PUF, Advanced Encryption Standard System
